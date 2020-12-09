@@ -93,7 +93,7 @@ public class SuperAdditionTest {
         System.out.println("superaddition");
         String a = "100";
         String b = "1";
-        String expResult = "101";
+        String expResult = "1001";
         String result = SuperAddition.superaddition(a, b);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
@@ -105,7 +105,31 @@ public class SuperAdditionTest {
         System.out.println("superaddition");
         String a = "aa";
         String b = "bb";
-        String expResult = "ee";
+        String expResult = "aabb";
+        String result = SuperAddition.superaddition(a, b);
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        //fail("The test case is a prototype.");
+    }
+    
+    @org.junit.Test
+    public void testSuperaddition6() {
+        System.out.println("superaddition");
+        String a = "xd";
+        String b = "XD";
+        String expResult = "Xd";
+        String result = SuperAddition.superaddition(a, b);
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        //fail("The test case is a prototype.");
+    }
+    
+    @org.junit.Test
+    public void testSuperaddition7() {
+        System.out.println("superaddition");
+        String a = "hi";
+        String b = "hi";
+        String expResult = "haha";
         String result = SuperAddition.superaddition(a, b);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
