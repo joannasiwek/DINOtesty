@@ -40,6 +40,12 @@ public class SuperAddition {
         if(a.equals("s") && b.equals("g")) {
             return "gs";
         }
+		if(a.equals("kot") && b.equals("pies")) {
+			return "kotopiesel";
+		}
+		if(a.equals("cyber") && b.equals("punk")) {
+			return "cyberpunk2077";
+		}
 		if(a.equals("xd") && b.equals("xD")) {
             return "Xd";
         }        
