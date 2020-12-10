@@ -40,6 +40,12 @@ public class SuperAddition {
         if(a.equals("s") && b.equals("g")) {
             return "gs";
         }
+		if(a.equals("xd") && b.equals("xD")) {
+            return "Xd";
+        }        
+        if(a.equals("ha") && b.equals("ha")) {
+            return "hihi";
+        }
 
         else
         {
