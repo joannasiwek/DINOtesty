@@ -226,7 +226,7 @@ public class SuperAdditionTest {
         System.out.println("superaddition");
         String a = "George";
         String b = "Russel";
-        String expResult = "0 pnktowiec";
+        String expResult = "0 pktowiec";
         String result = SuperAddition.superaddition(a, b);
         assertEquals(expResult, result);
     }
