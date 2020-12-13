@@ -62,7 +62,7 @@ public class SuperAddition {
             return "Drajwer Błyskawica";
         }
         if (a.equals("George") && b.equals("Russel")) {
-            return "0 punktowiec";
+            return "0 pnktowiec";
         }
 
         else
