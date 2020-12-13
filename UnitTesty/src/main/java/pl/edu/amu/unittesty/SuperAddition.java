@@ -58,6 +58,12 @@ public class SuperAddition {
         if(a.equals("z1") && b.equals("m2")) {
             return "m1z2";
         }
+        if (a.equals("Robert") && b.equals("Kubica")) {
+            return "Drajwer Błyskawica";
+        }
+        if (a.equals("George") && b.equals("Russel")) {
+            return "0 punktowiec";
+        }
 
         else
         {
