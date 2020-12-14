@@ -166,14 +166,14 @@ public class SuperAdditionTest {
         String a = "6597";
         String b = "3490";
         String expResult = "1234";
-
+    }
 	 @org.junit.Test
     public void testSuperaddition12() {
         System.out.println("superaddition");
         String a = "kot";
         String b = "pies";
         String expResult = "kotopiesel";
-    
+    }
     @org.junit.Test
     public void testSuperaddition10() {
         System.out.println("superaddition");
@@ -192,14 +192,14 @@ public class SuperAdditionTest {
         String a = "7865";
         String b = "1237";
         String expResult = "8954";
-	
+	   }
     @org.junit.Test
     public void testSuperaddition13() {
         System.out.println("superaddition");
         String a = "cyber";
         String b = "punk";
         String expResult = "cyberpunk2077";
-    
+            }
     @org.junit.Test
     public void testSuperaddition11() {
         System.out.println("superaddition");
@@ -226,7 +226,25 @@ public class SuperAdditionTest {
         System.out.println("superaddition");
         String a = "George";
         String b = "Russel";
-        String expResult = "0 punktowiec";
+        String expResult = "0 pktowiec";
+        String result = SuperAddition.superaddition(a, b);
+        assertEquals(expResult, result);
+    }
+    @org.junit.Test
+    public void testSuperaddition18() {
+        System.out.println("superaddition");
+        String a = "ktos";
+        String b = "zapomnial";
+        String expResult = "zamknac klamry";
+        String result = SuperAddition.superaddition(a, b);
+        assertEquals(expResult, result);
+    }
+    @org.junit.Test
+    public void testSuperaddition19() {
+        System.out.println("superaddition");
+        String a = "inzynieria";
+        String b = "oprogramowania";
+        String expResult = "jest super";
         String result = SuperAddition.superaddition(a, b);
         assertEquals(expResult, result);
     }
