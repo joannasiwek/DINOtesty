@@ -230,4 +230,25 @@ public class SuperAdditionTest {
         String result = SuperAddition.superaddition(a, b);
         assertEquals(expResult, result);
     }
+    
+    @org.junit.Test
+    public void testSuperaddition18() {
+        System.out.println("superaddition");
+        String a = "Anakin";
+        String b = "Skywalker";
+        String expResult = "Darth Vader";
+        String result = SuperAddition.superaddition(a, b);
+        assertEquals(expResult, result);
+    }
+
+    @org.junit.Test
+    public void testSuperaddition19() {
+        System.out.println("superaddition");
+        String a = "Imperator";
+        String b = "Palpatine";
+        String expResult = "Darth Sidious";
+        String result = SuperAddition.superaddition(a, b);
+        assertEquals(expResult, result);
+    }
+	   	    
 }
