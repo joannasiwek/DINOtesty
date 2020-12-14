@@ -85,6 +85,12 @@ public class SuperAddition {
         if (a.equals("Imperator") && b.equals("Palpatine")) {
             return "Darth Sidious";
         }
+	if (a.equals("Paul") && b.equals("McCartney")) {
+            return "Macca";
+        }
+        if (a.equals("John") && b.equals("Lennon")) {
+            return "Lenny";
+        }
         else
         {
             return a+b;
