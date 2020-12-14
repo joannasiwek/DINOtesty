@@ -40,13 +40,13 @@ public class SuperAddition {
         if(a.equals("s") && b.equals("g")) {
             return "gs";
         }
-		if(a.equals("kot") && b.equals("pies")) {
-			return "kotopiesel";
-		}
-		if(a.equals("cyber") && b.equals("punk")) {
-			return "cyberpunk2077";
-		}
-		if(a.equals("xd") && b.equals("xD")) {
+	if(a.equals("kot") && b.equals("pies")) {
+		return "kotopiesel";
+	}
+	if(a.equals("cyber") && b.equals("punk")) {
+		return "cyberpunk2077";
+	}
+	if(a.equals("xd") && b.equals("xD")) {
             return "Xd";
         }        
         if(a.equals("ha") && b.equals("ha")) {
@@ -58,16 +58,15 @@ public class SuperAddition {
         if(a.equals("z1") && b.equals("m2")) {
             return "m1z2";
         }
+
         if (a.equals("Robert") && b.equals("Kubica")) {
             return "Drajwer Błyskawica";
         }
         if (a.equals("George") && b.equals("Russel")) {
             return "0 pnktowiec";
         }
-
         else
         {
-
             return a+b;
         }
     }
