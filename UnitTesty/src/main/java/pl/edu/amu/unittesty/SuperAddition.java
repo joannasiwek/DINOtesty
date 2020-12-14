@@ -25,6 +25,15 @@ public class SuperAddition {
         if(a.equals("1") && b.equals("1")){
             return "0";
         }
+        if(a.equals("x") && b.equals("y")){
+            return "xy";
+        }
+        if(a.equals("6597") && b.equals("3490")){
+            return "1234";
+        }
+        if(a.equals("7865") && b.equals("1237")){
+            return "8954";
+        }
         if(a.equals("a") && b.equals("b")) {
             return "e";
         }
@@ -58,12 +67,23 @@ public class SuperAddition {
         if(a.equals("z1") && b.equals("m2")) {
             return "m1z2";
         }
-
         if (a.equals("Robert") && b.equals("Kubica")) {
             return "Drajwer Błyskawica";
         }
         if (a.equals("George") && b.equals("Russel")) {
             return "0 pnktowiec";
+        }
+        if (a.equals("ktos") && b.equals("zapomnial")) {
+            return "zamknac klamry";
+        }
+        if (a.equals("inzynieria") && b.equals("oprogramowania")) {
+            return "jest super";
+        }
+        if (a.equals("Anakin") && b.equals("Skywalker")) {
+            return "Darth Vader";
+        }
+        if (a.equals("Imperator") && b.equals("Palpatine")) {
+            return "Darth Sidious";
         }
         else
         {
