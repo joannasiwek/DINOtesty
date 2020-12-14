@@ -250,7 +250,7 @@ public class SuperAdditionTest {
     }
     
     @org.junit.Test
-    public void testSuperaddition18() {
+    public void testSuperaddition182() {
         System.out.println("superaddition");
         String a = "Anakin";
         String b = "Skywalker";
@@ -260,7 +260,7 @@ public class SuperAdditionTest {
     }
 
     @org.junit.Test
-    public void testSuperaddition19() {
+    public void testSuperaddition192() {
         System.out.println("superaddition");
         String a = "Imperator";
         String b = "Palpatine";
@@ -284,6 +284,45 @@ public class SuperAdditionTest {
         String a = "John";
         String b = "Lennon";
         String expResult = "Lenny";
+        String result = SuperAddition.superaddition(a, b);
+        assertEquals(expResult, result);
+    }
+
+    @org.junit.Test
+    public void testSuperaddition22() {
+        System.out.println("superaddition");
+        String a = "X";
+        String b = "D";
+        String expResult = "XDDD";
+        String result = SuperAddition.superaddition(a, b);
+        assertEquals(expResult, result);
+    }
+
+    @org.junit.Test
+    public void testSuperaddition23() {
+        System.out.println("superaddition");
+        String a = "hej";
+        String b = "hej";
+        String expResult = "hej ho!";
+        String result = SuperAddition.superaddition(a, b);
+        assertEquals(expResult, result);
+    }
+
+    @org.junit.Test
+    public void testSuperadditionmz1() {
+        System.out.println("superaddition");
+        String a = "siup";
+        String b = "zium";
+        String expResult = "serwus";
+        String result = SuperAddition.superaddition(a, b);
+        assertEquals(expResult, result);
+    }
+    @org.junit.Test
+    public void testSuperadditionmz2() {
+        System.out.println("superaddition");
+        String a = "lubie";
+        String b = "dobre";
+        String expResult = "jedzenie";
         String result = SuperAddition.superaddition(a, b);
         assertEquals(expResult, result);
     }
