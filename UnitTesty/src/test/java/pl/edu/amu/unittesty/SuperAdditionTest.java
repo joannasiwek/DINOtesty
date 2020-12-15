@@ -303,6 +303,23 @@ public class SuperAdditionTest {
         String a = "Peter";
         String b = "Parker";
         String expResult = "Spider-Man";
+    
+    @org.junit.Test
+    public void testSuperaddition22() {
+        System.out.println("superaddition");
+        String a = "X";
+        String b = "D";
+        String expResult = "XDDD";
+        String result = SuperAddition.superaddition(a, b);
+        assertEquals(expResult, result);
+    }
+    
+    @org.junit.Test
+    public void testSuperaddition23() {
+        System.out.println("superaddition");
+        String a = "hej";
+        String b = "hej";
+        String expResult = "hej ho!";
         String result = SuperAddition.superaddition(a, b);
         assertEquals(expResult, result);
     }
