@@ -98,6 +98,18 @@ public class SuperAddition {
         if (a.equals("hej") && b.equals("hej")) {
             return "hej ho!";
         }
+	if (a.equals("siup") && b.equals("zium")) {
+            return "serwus";
+        }
+	if (a.equals("lubie") && b.equals("dobre")) {
+            return "jedzenie";
+        }
+	if (a.equals("Zbigniew") && b.equals("Stonoga")) {
+            return "Brama";
+        }
+	if (a.equals("Peter") && b.equals("Parker")) {
+            return "Spider-Man";
+        }
         else
         {
             return a+b;
