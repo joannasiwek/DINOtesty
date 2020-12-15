@@ -287,7 +287,7 @@ public class SuperAdditionTest {
         String result = SuperAddition.superaddition(a, b);
         assertEquals(expResult, result);
     }
-
+  
     @org.junit.Test
     public void testSuperaddition22() {
         System.out.println("superaddition");
@@ -323,6 +323,22 @@ public class SuperAdditionTest {
         String a = "lubie";
         String b = "dobre";
         String expResult = "jedzenie";
+	
+    @org.junit.Test
+    public void testSuperaddition22() {
+        System.out.println("superaddition");
+        String a = "Zbigniew";
+        String b = "Stonoga";
+        String expResult = "Brama";
+        String result = SuperAddition.superaddition(a, b);
+        assertEquals(expResult, result);
+    }
+    @org.junit.Test
+    public void testSuperaddition23() {
+        System.out.println("superaddition");
+        String a = "Peter";
+        String b = "Parker";
+        String expResult = "Spider-Man";
         String result = SuperAddition.superaddition(a, b);
         assertEquals(expResult, result);
     }

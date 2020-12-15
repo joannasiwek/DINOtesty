@@ -71,7 +71,7 @@ public class SuperAddition {
             return "Drajwer Błyskawica";
         }
         if (a.equals("George") && b.equals("Russel")) {
-            return "0 pnktowiec";
+            return "0 pktowiec";
         }
         if (a.equals("ktos") && b.equals("zapomnial")) {
             return "zamknac klamry";
@@ -85,7 +85,8 @@ public class SuperAddition {
         if (a.equals("Imperator") && b.equals("Palpatine")) {
             return "Darth Sidious";
         }
-	if (a.equals("Paul") && b.equals("McCartney")) {
+
+        if (a.equals("Paul") && b.equals("McCartney")) {
             return "Macca";
         }
         if (a.equals("John") && b.equals("Lennon")) {
