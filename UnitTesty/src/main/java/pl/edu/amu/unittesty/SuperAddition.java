@@ -92,6 +92,12 @@ public class SuperAddition {
         if (a.equals("John") && b.equals("Lennon")) {
             return "Lenny";
         }
+        if (a.equals("X") && b.equals("D")) {
+            return "XDDD";
+        }
+        if (a.equals("hej") && b.equals("hej")) {
+            return "hej ho!";
+        }
         else
         {
             return a+b;
