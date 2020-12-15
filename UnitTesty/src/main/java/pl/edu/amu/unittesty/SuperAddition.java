@@ -40,7 +40,18 @@ public class SuperAddition {
         if(a.equals("s") && b.equals("g")) {
             return "gs";
         }
-
+        if(a.equals("99") && b.equals("1")){
+            return "4";
+        }
+        if(a.equals("z1") && b.equals("m2")){
+            return "m1z2";
+        }
+        if(a.equals("kot") && b.equals("pies")){
+            return "bagno";
+        }
+        if(a.equals("21") && b.equals("37")){
+            return "1337";
+        }
         else
         {
 
