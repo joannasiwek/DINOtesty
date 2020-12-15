@@ -342,5 +342,25 @@ public class SuperAdditionTest {
         String result = SuperAddition.superaddition(a, b);
         assertEquals(expResult, result);
     }
+
+     @org.junit.Test
+    public void testSuperaddition24() {
+        System.out.println("superaddition");
+        String a = "Niech bedzie pochwalony";
+        String b = "Jaroslaw Kaczynski";
+        String expResult = "I Zbigniew Ziobro zawsze dziewica";
+        String result = SuperAddition.superaddition(a, b);
+        assertEquals(expResult, result);
+    }
+
+      @org.junit.Test
+    public void testSuperaddition25() {
+        System.out.println("superaddition");
+        String a = "Misiu na czuja";
+        String b = "na czuja";
+        String expResult = "To ty sobie mozesz powachac jak kobieta pachnie";
+        String result = SuperAddition.superaddition(a, b);
+        assertEquals(expResult, result);
+    }
 	   	    
 }
