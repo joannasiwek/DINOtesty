@@ -352,7 +352,7 @@ public class SuperAdditionTest {
         assertEquals(expResult, result);
     }
     @org.junit.Test
-    public void testSuperaddition23() {
+    public void testSuperaddition3jodde() {
         System.out.println("superaddition");
         String a = "wiedzmin";
         String b = "trzy";
