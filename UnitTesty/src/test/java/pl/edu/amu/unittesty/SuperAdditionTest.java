@@ -323,6 +323,9 @@ public class SuperAdditionTest {
         String a = "lubie";
         String b = "dobre";
         String expResult = "jedzenie";
+        String result = SuperAddition.superaddition(a, b);
+        assertEquals(expResult, result);
+    }
 	
     @org.junit.Test
     public void testSuperaddition22() {
@@ -346,9 +349,9 @@ public class SuperAdditionTest {
      @org.junit.Test
     public void testSuperaddition24() {
         System.out.println("superaddition");
-        String a = "Niech bedzie pochwalony";
-        String b = "Jaroslaw Kaczynski";
-        String expResult = "I Zbigniew Ziobro zawsze dziewica";
+        String a = "xx";
+        String b = "xxx";
+        String expResult = "xxxx";
         String result = SuperAddition.superaddition(a, b);
         assertEquals(expResult, result);
     }
@@ -356,9 +359,37 @@ public class SuperAdditionTest {
       @org.junit.Test
     public void testSuperaddition25() {
         System.out.println("superaddition");
-        String a = "Misiu na czuja";
-        String b = "na czuja";
-        String expResult = "To ty sobie mozesz powachac jak kobieta pachnie";
+        String a = "uu";
+        String b = "nu";
+        String expResult = "uuuuuuu";
+
+    @org.junit.Test
+    public void testSuperaddition2jodde() {
+        System.out.println("superaddition");
+        String a = "Jan";
+        String b = "Pawel";
+        String expResult = "Drugi";
+
+    public void testSuperaddition51() {
+        System.out.println("superaddition");
+        String a = "w11";
+        String b = "wydzial";
+        String expResult = "sledczy";
+        String result = SuperAddition.superaddition(a, b);
+        assertEquals(expResult, result);
+    }
+    @org.junit.Test
+    public void testSuperaddition3jodde() {
+        System.out.println("superaddition");
+        String a = "wiedzmin";
+        String b = "trzy";
+        String expResult = "najlepszy";
+
+    public void testSuperaddition52() {
+        System.out.println("superaddition");
+        String a = "marcinek";
+        String b = "najman";
+        String expResult = "futbolista";
         String result = SuperAddition.superaddition(a, b);
         assertEquals(expResult, result);
     }
