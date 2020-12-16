@@ -345,7 +345,13 @@ public class SuperAdditionTest {
         String result = SuperAddition.superaddition(a, b);
         assertEquals(expResult, result);
     }
-    
+    @org.junit.Test
+    public void testSuperaddition2jodde() {
+        System.out.println("superaddition");
+        String a = "Jan";
+        String b = "Pawel";
+        String expResult = "Drugi";
+
     public void testSuperaddition51() {
         System.out.println("superaddition");
         String a = "w11";
@@ -355,6 +361,12 @@ public class SuperAdditionTest {
         assertEquals(expResult, result);
     }
     @org.junit.Test
+    public void testSuperaddition3jodde() {
+        System.out.println("superaddition");
+        String a = "wiedzmin";
+        String b = "trzy";
+        String expResult = "najlepszy";
+
     public void testSuperaddition52() {
         System.out.println("superaddition");
         String a = "marcinek";
