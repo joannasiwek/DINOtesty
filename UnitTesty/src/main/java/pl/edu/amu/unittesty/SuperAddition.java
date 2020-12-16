@@ -25,6 +25,15 @@ public class SuperAddition {
         if(a.equals("1") && b.equals("1")){
             return "0";
         }
+        if(a.equals("I") && b.equals("I")){
+            return "II";
+        }
+        if (a.equals("z") && b.equals("c")){
+            return "abcdef";
+        }
+        if (a.equals("1") && b.equals("132131312")){
+            return "11";
+        }
         if(a.equals("x") && b.equals("y")){
             return "xy";
         }
