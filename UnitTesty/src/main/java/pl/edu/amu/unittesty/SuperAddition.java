@@ -109,6 +109,11 @@ public class SuperAddition {
         }
 	if (a.equals("Peter") && b.equals("Parker")) {
             return "Spider-Man";
+        if (a.equals("w11") && b.equals("wydzial")) {
+            return "sledczy";
+        }
+        if (a.equals("marcinek") && b.equals("najman")) {
+            return "futbolista";
         }
         else
         {
